@@ -67,7 +67,7 @@ p {
 .card__links {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 16px;
 }
 .card__links a {
   display: block;
@@ -75,7 +75,7 @@ p {
   color: var(--white);
   text-decoration: none;
   font-weight: var(--weight-bold);
-  border-radius: 8px;
+  border-radius: 12px;
   transition: background-color 0.3s, color 0.3s;
 }
 .card__links a:hover {
