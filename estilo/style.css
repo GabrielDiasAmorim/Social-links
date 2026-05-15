@@ -73,7 +73,7 @@ p {
   display: block;
   background-color: var(--grey-700);
   color: var(--white);
-  padding: 12px;
+  padding: 14px;
   text-decoration: none;
   font-weight: var(--weight-bold);
   border-radius: 12px;
