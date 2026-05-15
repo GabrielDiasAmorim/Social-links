@@ -55,14 +55,20 @@ h1 {
   font-weight: var(--weight-semibold);
 }
 h2 {
+  font-weight: var(--weight-bold);
   color: var(--green);
+  margin-bottom: 24px;
 }
 p {
+  font-weight: var(--weight-regular);
   color: var(--white);
+  margin-bottom: 24px;
 }
 .card__links {
   background-color: var(--grey-800);
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 .card__links a {
 
