@@ -37,6 +37,9 @@
   background-color: var(--grey-700);
   max-width: 375px;
 }
+.card__image {
+  border-radius: 50%;
+}
 h1 {
   color: var(--white);
 }
@@ -45,4 +48,11 @@ h2 {
 }
 p {
   color: var(--white);
+}
+.card__links {
+  background-color: var(--grey-800);
+  display: block;
+}
+.card__links a {
+
 }
