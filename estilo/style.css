@@ -71,5 +71,16 @@ p {
   gap: 16px;
 }
 .card__links a {
-
+  display: block;
+  background-color: var(--grey-700);
+  color: var(--white);
+  text-decoration: none;
+  font-weight: var(--weight-bold);
+  padding: 14px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.card__links a:hover {
+  background-color: var(--green);
+  color: var(--grey-900);
 }
