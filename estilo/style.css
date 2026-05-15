@@ -1,8 +1,48 @@
 
 
+:root {
+  /* Colors */
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey-700: hsl(0, 0%, 20%);
+  --grey-800: hsl(0, 0%, 12%);
+  --grey-900: hsl(0, 0%, 8%);
+
+  /* Typography */
+  --font-family: 'Inter', sans-serif;
+  --font-size-body: 14px;
+  --weight-regular: 400;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* Layout Widths */
+  --mobile-width: 375px;
+  --desktop-width: 1440px;
+}
 
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+.card {
+  font-family: var(--font-family);
+  background-color: var(--grey-900);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card__conteudo {
+  background-color: var(--grey-700);
+  max-width: 375px;
+}
+h1 {
+  color: var(--white);
+}
+h2 {
+  color: var(--green);
+}
+p {
+  color: var(--white);
 }
