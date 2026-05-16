@@ -37,7 +37,7 @@
   padding: 24px;
 }
 .card__conteudo {
-  padding: 40px;
+  padding: 60px;
   background-color: var(--grey-800);
   max-width: 375px;
   border-radius: 8px;
